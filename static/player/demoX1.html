@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="utf-8">
+<title>酷播V4.05跨平台,微信播放器,酷播免费播放器,html5播放器,h5播放器</title>
+<meta name="keywords" content="cuplayer,酷播v4,酷播V4.05跨平台,酷播免费播放器,html5播放器,h5播放器,微信播放器">
+<meta name="description" content="酷播跨平台点播范例（支持PC和手机/微信等）,微信播放器">
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+</head>
+<body> 
+ 
+<!-- 酷播V4.05跨平台代码/开始 -->
+<div class="video" id="CuPlayer">
+<script type="text/javascript">
+<!--
+var vID        = "c1";                   //vID
+var vWidth     = "600";                  //宽度设定，配合CSS实现
+var vHeight    = "400";                  //高度设定，配合CSS实现
+var vFile      = "CuSunV4set.xml";       //配置文件地址:支持五种广告设定
+var vPlayer    = "player.swf?v=4.0";     //播放器文件地址
+var vPic       = "pic/pic01.jpg";        //视频缩略图
+var vCssurl    = "css/videos.min.css";   //CSS文件
+var vAutoPlay  = "yes";                  //是否自动播放
+var vEndTime   = 0;                      //预览时间(秒数),默认为0
+var vLogoPath  = "images/logo.png";      //Logo地址
+var vPlayMod   = 0;                      //播放模式优先级,默认=0,html5优先=1,flash优先=2
+var vMp4url    = "../ckin.mp4";//视频文件地址推荐用mp4文件(h264编码)
+//-->
+</script>
+<script class="CuPlayerVideo" data-mce-role="CuPlayerVideo" type="text/javascript" src="js/player.min.js"></script>
+</div>
+<!-- 酷播V4.05跨平台代码/结束 -->
+<h3><span>酷播V4.05跨平台代码范例（最简版范例）</span></h3>
+
+
+
+<div class="help">
+<div class="code" align="center">
+<p >手机端扫描以下二维码直接观看</p>
+
+<script type="text/javascript">
+<!--
+var myURL = document.location.href; 
+document.writeln("<p id=\"jiathis_webchat\"><img alt=\"二维码加载中...\" style=\"margin-top: 15px;\" src=\"http://live.polyv.net/qrcode?url=" + myURL + "\" height=\"240\" width=\"240\"><p class=\"open\">手机扫一扫 直接打开观看视频<br/>（支持安卓Android/苹果iOS/微信）</p></p>");
+//-->
+</script> 
+</div>
+
+</div>
+<div style="display:none;">
+<script type="text/javascript" src="http://www.cuplayer.com/CuPlayer/js/stat.js"></script>
+</div>
+</body>
+</html>
